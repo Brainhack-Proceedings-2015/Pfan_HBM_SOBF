@@ -135,28 +135,25 @@ email={dentico@wisc.edu}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \address[id=aff1]{%
-  \orgname{Functional Imaging Unit, Center for Diagnostic Radiology, Unviersity
-Medicine Greifswald},
+  \orgname{Functional Imaging Unit, Center for Diagnostic Radiology, University
+           Medicine Greifswald},
   \city{Greifswald},
-  \street{University Strasse},
-  \postcode{10001},
-  \postcode{Greeifswald},
+  \street{Fleischmann Strasse 8},
+  \postcode{17475},
   \cny{Germany}
 }
 \address[id=aff2]{%
   \orgname{Institute of Physics, University of Campinas},
   \city{Campinas},
-  \street{St},
-  \postcode{10001},
-  \postcode{Campinas},
+  \street{Rua Sérgio Buarque de Holanda 777},
+  \postcode{13083-859},
   \cny{Brazil}
 }
 \address[id=aff3]{%
   \orgname{Waisman Center, University of Wisconsin},
   \city{Madison},
-  \street{St},
-  \postcode{10001},
-  \postcode{Wisconsin},
+  \street{1500 Highland Ave},
+  \postcode{WI 53705},
   \cny{USA}
 }
 
@@ -226,27 +223,25 @@ Medicine Greifswald},
 %%% Import the body from pandoc formatted text
 \section{Introduction}\label{introduction}
 
-To investigate self-organizing properties of the ocular dominance
-columns in the primary visual cortex computationally, using the
-Swift-Hohenberg equation \cite{Hohenberg1992}.
-
 Self-organization is a fundamental property of complex systems,
 describing the order spontaneously arising by the local interactions of
-the system components not mediated by top-down inputs. Though
+the system components not mediated by top-down inputs. Though,
 self-organizing systems typically possess a large number of components
 and exhibit complex dynamics, their evolution is deterministic and
 governed by a small number of order parameters. This property is used
 here to model the self-organization of the ocular dominance columns of
 the striate cortex in patterns of neighboring stripes, which respond
-preferentially to inputs from the left or the right eye.
+preferentially to inputs from the left or the right eye. Several models
+for self-organization with various degrees of complexity exist. We chose 
+the most simple model due to its robustness and limited number of parameter.
 
 \section{Approach}\label{approach}
 
-The Swift-Hohenberg equation was used to model the self-organization of
-the ocular dominance columns. There are two order parameters in this
-equation, the first one determines the spatial wavelength \(\lambda\) of
-the stripes and the second one the branchiness \(\epsilon\) of the
-pattern. The algorithm used to generate the results has been modified
+The Swift-Hohenberg equation \cite{Hohenberg1992} was used to model the 
+self-organization of the ocular dominance columns. There are two order 
+parameters in this equation, the first one determines the spatial wavelength 
+\(\lambda\) of the stripes and the second one the branchiness \(\epsilon\) 
+of the pattern. The algorithm used to generate the results has been modified
 from an open source script.
 
 \section{Results}\label{results}
