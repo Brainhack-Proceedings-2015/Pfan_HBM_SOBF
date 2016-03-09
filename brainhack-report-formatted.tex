@@ -242,7 +242,20 @@ self-organization of the ocular dominance columns. There are two order
 parameters in this equation, the first one determines the spatial wavelength 
 \(\lambda\) of the stripes and the second one the branchiness \(\epsilon\) 
 of the pattern. The algorithm used to generate the results has been modified
-from an open source script.
+from an open source script. The Swift-Hohenberg was solved by applying periodic
+boundary conditions after a Fourier transform to k space, which simplifies the 
+computation of the solution to matrix operations:
+\newline
+\newline
+for k = 1:N\\
+\hphantom{15} q(k) = (2*(k-1)/N-1)*pi*N/L;\\
+end\\
+\newline
+for k = 1:N\\
+\hphantom{7}for l = 1:N\\
+\hphantom{50}    Q(k,l) = 1/(1-dt*(epsilon-(ko\^2-(q(k)\^2+q(l)\^2))\^2));\\
+\hphantom{7}end\\
+end.
 
 \section{Results}\label{results}
 
@@ -256,7 +269,13 @@ similar to the ocular dominance layers found in the visual cortex.
 
 \begin{figure*}[h!]
   \includegraphics[width=.98\textwidth]{ocular_dominace.png}
-  \caption{\label{centfig} Figure.}
+  \caption{\label{centfig} Examples for the temporal evolution of the 
+           solution to the Swift-Hohenberg equation for different 
+           branchiness parameter \(\epsilon\).  (a) Random initial 
+           conditions for the solution of the equation. (b) Formation of 
+           the pattern. (c) Striped pattern for negligible branchiness 
+           \(\epsilon\). (d) Complex stripes for medium \(\epsilon\). (e)
+           No pattern for large \(\epsilon\).}
 \end{figure*}
 
 \section{Conclusions}\label{conclusions}
