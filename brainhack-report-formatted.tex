@@ -228,12 +228,14 @@ describing the order spontaneously arising by the local interactions of
 the system components not mediated by top-down inputs. Though,
 self-organizing systems typically possess a large number of components
 and exhibit complex dynamics, their evolution is deterministic and
-governed by a small number of order parameters. This property is used
-here to model the self-organization of the ocular dominance columns of
-the striate cortex in patterns of neighboring stripes, which respond
-preferentially to inputs from the left or the right eye. Several models
-for self-organization with various degrees of complexity exist. We chose 
-the most simple model due to its robustness and limited number of parameter.
+governed by a small number of order parameters. This property was used
+to model the self-organization of the ocular dominance columns of
+the striate cortex in patterns of neighboring stripes \cite{Reichl2012}, 
+which respond preferentially to inputs from the left or the right eye. 
+In this model the self-organization across ocular dominance and 
+orientation preference layers was coupled. We reduce the model complexity 
+by including only the cortical dominance layer and investigate the 
+parameter dependency of the self-organization with a Matlab implementation. 
 
 \section{Approach}\label{approach}
 
@@ -241,21 +243,14 @@ The Swift-Hohenberg equation \cite{Hohenberg1992} was used to model the
 self-organization of the ocular dominance columns. There are two order 
 parameters in this equation, the first one determines the spatial wavelength 
 \(\lambda\) of the stripes and the second one the branchiness \(\epsilon\) 
-of the pattern. The algorithm used to generate the results has been modified
-from an open source script. The Swift-Hohenberg was solved by applying periodic
-boundary conditions after a Fourier transform to k space, which simplifies the 
-computation of the solution to matrix operations:
-\newline
-\newline
-for k = 1:N\\
-\hphantom{15} q(k) = (2*(k-1)/N-1)*pi*N/L;\\
-end\\
-\newline
-for k = 1:N\\
-\hphantom{7}for l = 1:N\\
-\hphantom{50}    Q(k,l) = 1/(1-dt*(epsilon-(k0\textasciicircum{2}-(q(k)\textasciicircum{2}+q(l)\textasciicircum{2}))\textasciicircum{2}));\\
-\hphantom{7}end\\
-end.
+of the pattern. $\Delta$ is the Laplace operator.
+\begin{equation}
+\partial_{t}\psi{(x,y,t)}= [\epsilon-(\Delta+\frac{4\pi^2}{\lambda^2})^2]\cdot\psi - \psi^3
+\end{equation}
+The algorithm used to generate the results has been modified
+from an open source script. The Swift-Hohenberg equation was solved by 
+applying periodic boundary conditions after a Fourier transform to k space, 
+which simplifies the computation of the solution.
 
 \section{Results}\label{results}
 
@@ -296,7 +291,11 @@ orientation, and cytochrome oxidase.
 \begin{backmatter}
 
 \section*{Availability of Supporting Data}
-More information about this project can be found at: \url{http://brainhack.org/self-organization-and-brain-function}. Further data and files supporting this project are hosted in the \emph{GigaScience} repository \url{https://github.com/Brainhack-Proceedings-2015/Pfan_HBM_SOBF}.
+More information about this project can be found at: 
+\url{http://brainhack.org/self-organization-and-brain-function}. 
+Further data and files supporting this project are hosted in the 
+\emph{GigaScience} repository 
+\url{https://github.com/Brainhack-Proceedings-2015/Pfan_HBM_SOBF}.
 
 \section*{Competing interests}
 None
