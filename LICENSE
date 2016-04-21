@@ -1,6 +1,27 @@
-The MIT License (MIT)
+The following files are Copyright (c) 2016 Brainhack-Proceedings-2015:
 
-Copyright (c) 2016 Brainhack-Proceedings-2015
+bhgn.pdf
+bmcart-biblio.sty
+bmcart.cls
+bmc-mathphys.bst
+brainhack-report.bib
+brainhack-report.md
+brainhack-report-template.tex
+LICENSE
+Makefile
+README.md
+
+The text, code and images in the following files and folders are 
+Copyright (c) 2016, J. P. Pfannmöller, R. Mesquita, L.C.T. Herrera, D. Dentico:
+
+brainhack-report-formatted.pdf
+brainhack-report-formatted.tex
+matlab_scripts
+ocular_dominace.png
+
+The license for all components is as follows:
+
+The MIT License (MIT)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
