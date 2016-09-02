@@ -1,0 +1,71 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: brainhack-report-formatted.aux
+The style file: bmc-mathphys.bst
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Database file #1: brainhack-report.bib
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 30 items from 20.
+Reallocated global_strs (elt_size=20001) to 30 items from 20.
+Reallocated glb_str_end (elt_size=4) to 30 items from 20.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+You've used 2 entries,
+            7128 wiz_defined-function locations,
+            1146 strings with 9693 characters,
+and the built_in function-call counts, 11882 in all, are:
+= -- 1375
+> -- 88
+< -- 56
++ -- 256
+- -- 24
+* -- 979
+:= -- 2374
+add.period$ -- 4
+call.type$ -- 2
+change.case$ -- 19
+chr.to.int$ -- 128
+cite$ -- 2
+duplicate$ -- 220
+empty$ -- 709
+format.name$ -- 81
+if$ -- 2598
+int.to.chr$ -- 1
+int.to.str$ -- 6
+missing$ -- 72
+newline$ -- 120
+num.names$ -- 10
+pop$ -- 79
+preamble$ -- 1
+purify$ -- 9
+quote$ -- 4
+skip$ -- 635
+stack$ -- 0
+substring$ -- 1600
+swap$ -- 88
+text.length$ -- 33
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 92
+warning$ -- 0
+while$ -- 77
+width$ -- 0
+write$ -- 140
