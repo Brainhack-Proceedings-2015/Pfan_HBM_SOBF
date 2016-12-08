@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is BibTeX, Version 0.99d (TeX Live 2016)
+=======
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+>>>>>>> 81355e9db485a9664d37cbc755cb6920de5b0b98
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: brainhack-report-formatted.aux
 The style file: bmc-mathphys.bst
@@ -30,24 +34,41 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 You've used 2 entries,
             7128 wiz_defined-function locations,
+<<<<<<< HEAD
             1146 strings with 9656 characters,
 and the built_in function-call counts, 10852 in all, are:
 = -- 1247
+=======
+            1146 strings with 9693 characters,
+and the built_in function-call counts, 11882 in all, are:
+= -- 1375
+>>>>>>> 81355e9db485a9664d37cbc755cb6920de5b0b98
 > -- 88
 < -- 56
 + -- 256
 - -- 24
+<<<<<<< HEAD
 * -- 894
 := -- 2171
+=======
+* -- 979
+:= -- 2374
+>>>>>>> 81355e9db485a9664d37cbc755cb6920de5b0b98
 add.period$ -- 4
 call.type$ -- 2
 change.case$ -- 19
 chr.to.int$ -- 128
 cite$ -- 2
 duplicate$ -- 220
+<<<<<<< HEAD
 empty$ -- 629
 format.name$ -- 81
 if$ -- 2390
+=======
+empty$ -- 709
+format.name$ -- 81
+if$ -- 2598
+>>>>>>> 81355e9db485a9664d37cbc755cb6920de5b0b98
 int.to.chr$ -- 1
 int.to.str$ -- 6
 missing$ -- 72
@@ -57,9 +78,15 @@ pop$ -- 79
 preamble$ -- 1
 purify$ -- 9
 quote$ -- 4
+<<<<<<< HEAD
 skip$ -- 559
 stack$ -- 0
 substring$ -- 1350
+=======
+skip$ -- 635
+stack$ -- 0
+substring$ -- 1600
+>>>>>>> 81355e9db485a9664d37cbc755cb6920de5b0b98
 swap$ -- 88
 text.length$ -- 33
 text.prefix$ -- 0

@@ -47,8 +47,13 @@
 \begin{barticle}
 \bauthor{\bsnm{Reichl}, \binits{L.}},
 \bauthor{\bsnm{Heide}, \binits{D.}},
+<<<<<<< HEAD
 \bauthor{\bsnm{L\"owel}, \binits{S.}},
 \bauthor{\bsnm{Crowley}, \binits{J.}},
+=======
+\bauthor{\bsnm{Löwel}, \binits{S.}},
+\bauthor{\bsnm{Crowley}, \binits{J.C.}},
+>>>>>>> 81355e9db485a9664d37cbc755cb6920de5b0b98
 \bauthor{\bsnm{Kaschube}, \binits{M.}},
 \bauthor{\bsnm{Wolf}, \binits{F.}}:
 \batitle{Coordinated optimization of visual cortical maps (i) symmetry-based
@@ -64,8 +69,13 @@ doi:\doiurl{10.1371/journal.pcbi.1002466}
 %%% 2
 \bibitem{Hohenberg1992}
 \begin{barticle}
+<<<<<<< HEAD
 \bauthor{\bsnm{Hohenberg}, \binits{P.}},
 \bauthor{\bsnm{Swift}, \binits{J.}}:
+=======
+\bauthor{\bsnm{Hohenberg}, \binits{P.C.}},
+\bauthor{\bsnm{Swift}, \binits{J.B.}}:
+>>>>>>> 81355e9db485a9664d37cbc755cb6920de5b0b98
 \batitle{Effects of additive noise at the onset of rayleigh-b\'enard
   convection}.
 \bjtitle{Phys. Rev. A}
@@ -90,7 +100,11 @@ doi:\doiurl{10.1103/PhysRevA.46.4773}
   <aug>
     <au><snm>Reichl</snm><fnm>L</fnm></au>
     <au><snm>Heide</snm><fnm>D</fnm></au>
+<<<<<<< HEAD
     <au><snm>L\"owel</snm><fnm>S</fnm></au>
+=======
+    <au><snm>Löwel</snm><fnm>S</fnm></au>
+>>>>>>> 81355e9db485a9664d37cbc755cb6920de5b0b98
     <au><snm>Crowley</snm><fnm>JC</fnm></au>
     <au><snm>Kaschube</snm><fnm>M</fnm></au>
     <au><snm>Wolf</snm><fnm>F</fnm></au>
@@ -108,8 +122,13 @@ doi:\doiurl{10.1103/PhysRevA.46.4773}
   <title><p>Effects of additive noise at the onset of Rayleigh-B\'enard
   convection</p></title>
   <aug>
+<<<<<<< HEAD
     <au><snm>Hohenberg</snm><fnm>PC</fnm></au>
     <au><snm>Swift</snm><fnm>JB</fnm></au>
+=======
+    <au><snm>Hohenberg</snm><fnm>P. C.</fnm></au>
+    <au><snm>Swift</snm><fnm>J. B.</fnm></au>
+>>>>>>> 81355e9db485a9664d37cbc755cb6920de5b0b98
   </aug>
   <source>Phys. Rev. A</source>
   <publisher>American Physical Society</publisher>
