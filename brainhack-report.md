@@ -61,7 +61,7 @@ contrib: JPP, RCM, LCTH, and DD performed the project and wrote the report.
   
 bibliography: brainhack-report
 
-gigascience-ref: REFXXX
+gigascience-ref: \href{http://gigadb.org/dataset/100235}{doi:10.5524/100235}
 ...
 
 #Introduction
